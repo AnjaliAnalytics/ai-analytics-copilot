@@ -1,0 +1,501 @@
+Order_ID,Order_Date,Customer_ID,Segment,Region,Category,Sub_Category,Product_Name,Quantity,Sales,Discount,Profit,Shipping_Cost
+ORD-1001,2025-04-13,CUST-128,Consumer,West,Technology,Phones,Google Pixel 8,3,280.44,0.0,51.44,7.57
+ORD-1002,2025-05-11,CUST-121,Consumer,West,Furniture,Tables,Conference Table,5,2498.61,0.05,179.1,3.74
+ORD-1003,2025-02-28,CUST-141,Consumer,West,Office Supplies,Binders,Zipper Binder,4,1920.18,0.0,483.67,8.46
+ORD-1004,2025-06-16,CUST-117,Home Office,West,Furniture,Tables,Conference Table,9,247.8,0.0,39.71,24.86
+ORD-1005,2025-09-21,CUST-146,Consumer,North,Furniture,Furnishings,Anti-Fatigue Mat,6,1069.41,0.05,82.81,29.95
+ORD-1006,2025-02-13,CUST-133,Consumer,West,Furniture,Bookcases,Walnut Bookshelf,8,3702.39,0.05,1104.34,30.03
+ORD-1007,2025-08-25,CUST-117,Corporate,West,Furniture,Chairs,Ergonomic Mesh Chair,9,2228.17,0.0,231.53,16.55
+ORD-1008,2025-05-09,CUST-143,Consumer,East,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,8,4698.17,0.1,266.2,14.47
+ORD-1009,2025-02-10,CUST-127,Home Office,West,Furniture,Chairs,Drafting Stool,7,3780.28,0.05,795.5,11.79
+ORD-1010,2025-02-04,CUST-100,Consumer,East,Furniture,Bookcases,Oak 4-Shelf Bookcase,5,2278.01,0.1,344.22,19.73
+ORD-1011,2025-01-15,CUST-125,Consumer,North,Office Supplies,Storage,Filing Cabinet 3-Drawer,4,2909.76,0.0,589.5,27.18
+ORD-1012,2025-02-05,CUST-112,Consumer,East,Office Supplies,Art,Cutting Mat,9,880.32,0.0,136.11,16.33
+ORD-1013,2025-11-27,CUST-127,Consumer,South,Technology,Phones,iPhone 15 Pro,9,5914.27,0.15,67.88,19.34
+ORD-1014,2025-05-17,CUST-136,Corporate,South,Office Supplies,Binders,Presentation Folder,8,4534.96,0.0,1555.24,33.8
+ORD-1015,2025-10-22,CUST-101,Corporate,North,Technology,Copiers,Canon ImageCLASS,1,781.64,0.0,84.62,14.04
+ORD-1016,2025-05-06,CUST-101,Consumer,South,Furniture,Furnishings,Monitor Stand,4,313.88,0.0,50.39,28.7
+ORD-1017,2025-11-21,CUST-133,Corporate,East,Office Supplies,Storage,Filing Cabinet 3-Drawer,6,3367.28,0.15,266.91,10.05
+ORD-1018,2025-12-12,CUST-102,Home Office,West,Office Supplies,Art,Marker Set 24-Pack,1,327.09,0.05,87.97,24.62
+ORD-1019,2025-05-31,CUST-130,Home Office,East,Office Supplies,Art,Cutting Mat,9,3785.03,0.0,1321.22,33.89
+ORD-1020,2025-02-06,CUST-131,Corporate,North,Technology,Accessories,USB-C Hub,3,2061.64,0.0,663.73,30.23
+ORD-1021,2025-04-23,CUST-107,Corporate,West,Furniture,Bookcases,Metal Storage Shelf,9,4822.64,0.0,676.14,20.56
+ORD-1022,2025-11-06,CUST-134,Corporate,North,Technology,Copiers,Canon ImageCLASS,5,776.88,0.0,222.22,26.07
+ORD-1023,2025-05-08,CUST-132,Corporate,East,Office Supplies,Appliances,Air Purifier,6,4357.73,0.0,817.16,23.64
+ORD-1024,2025-11-13,CUST-147,Consumer,East,Technology,Copiers,Canon ImageCLASS,5,3542.71,0.1,901.41,13.58
+ORD-1025,2025-10-29,CUST-130,Home Office,North,Office Supplies,Appliances,Compact Refrigerator,7,1580.27,0.0,305.26,15.63
+ORD-1026,2025-02-23,CUST-102,Corporate,West,Furniture,Furnishings,Monitor Stand,6,1779.23,0.0,309.27,18.27
+ORD-1027,2025-04-14,CUST-132,Consumer,South,Office Supplies,Appliances,Coffee Maker,7,2411.7,0.0,609.87,5.61
+ORD-1028,2025-11-09,CUST-135,Corporate,North,Furniture,Furnishings,Anti-Fatigue Mat,3,840.98,0.0,103.86,21.5
+ORD-1029,2025-12-08,CUST-124,Consumer,South,Technology,Laptops,Dell XPS 13,6,1268.68,0.0,223.05,20.19
+ORD-1030,2025-04-11,CUST-132,Home Office,West,Technology,Accessories,Monitor Arm,6,333.42,0.05,66.15,23.4
+ORD-1031,2025-11-04,CUST-115,Home Office,West,Furniture,Tables,Executive Wooden Desk,1,328.07,0.0,93.83,11.03
+ORD-1032,2025-04-27,CUST-122,Consumer,West,Technology,Phones,Samsung Galaxy S24,1,362.25,0.0,44.73,8.85
+ORD-1033,2025-08-25,CUST-100,Home Office,East,Office Supplies,Appliances,Coffee Maker,7,367.2,0.05,39.54,6.85
+ORD-1034,2025-10-12,CUST-113,Consumer,East,Technology,Laptops,Dell XPS 13,4,610.54,0.0,177.57,28.82
+ORD-1035,2025-04-10,CUST-132,Consumer,North,Office Supplies,Paper,Cardstock Paper,6,3081.29,0.0,596.7,23.03
+ORD-1036,2025-04-06,CUST-100,Corporate,North,Office Supplies,Paper,Multipurpose Printer Paper,4,1866.99,0.0,486.95,17.66
+ORD-1037,2025-06-28,CUST-142,Home Office,East,Technology,Phones,Motorola Edge,2,91.17,0.05,13.67,23.98
+ORD-1038,2025-04-03,CUST-125,Corporate,South,Furniture,Bookcases,Oak 4-Shelf Bookcase,7,754.32,0.05,165.48,31.08
+ORD-1039,2025-08-05,CUST-120,Home Office,West,Furniture,Chairs,Ergonomic Mesh Chair,8,5186.92,0.2,324.3,14.9
+ORD-1040,2025-04-06,CUST-123,Home Office,West,Technology,Copiers,Canon ImageCLASS,7,4231.04,0.1,267.41,31.88
+ORD-1041,2025-03-03,CUST-119,Home Office,South,Technology,Accessories,USB-C Hub,1,56.99,0.2,8.52,14.36
+ORD-1042,2025-10-11,CUST-113,Corporate,West,Office Supplies,Paper,Sticky Notes Pack,5,434.94,0.05,87.64,9.81
+ORD-1043,2025-02-22,CUST-122,Corporate,East,Technology,Phones,Samsung Galaxy S24,7,5577.64,0.0,1585.49,20.47
+ORD-1044,2025-11-27,CUST-117,Home Office,North,Furniture,Tables,Standing Desk 60in,6,486.14,0.1,27.4,29.3
+ORD-1045,2025-05-02,CUST-101,Consumer,North,Furniture,Bookcases,Oak 4-Shelf Bookcase,1,706.08,0.0,230.83,21.94
+ORD-1046,2025-10-19,CUST-105,Corporate,East,Technology,Copiers,Brother Laser Printer,7,2436.1,0.15,81.92,18.76
+ORD-1047,2025-05-21,CUST-149,Consumer,South,Technology,Accessories,Wireless Mouse,7,4204.52,0.05,1255.12,15.0
+ORD-1048,2025-11-08,CUST-132,Consumer,South,Furniture,Furnishings,Desk Lamp,5,245.35,0.15,50.37,11.1
+ORD-1049,2025-05-27,CUST-119,Consumer,East,Technology,Phones,Samsung Galaxy S24,1,507.63,0.05,144.18,4.45
+ORD-1050,2025-01-12,CUST-109,Home Office,West,Furniture,Furnishings,Desk Lamp,8,1185.59,0.05,192.32,10.34
+ORD-1051,2025-01-28,CUST-127,Consumer,West,Office Supplies,Storage,Filing Cabinet 3-Drawer,1,337.8,0.05,45.38,7.26
+ORD-1052,2025-02-04,CUST-105,Home Office,West,Technology,Accessories,Wireless Mouse,2,159.92,0.15,20.34,8.27
+ORD-1053,2025-10-16,CUST-100,Consumer,East,Technology,Accessories,Wireless Mouse,9,6987.45,0.1,1597.5,18.0
+ORD-1054,2025-04-09,CUST-100,Consumer,East,Furniture,Furnishings,Desk Lamp,5,3998.89,0.2,364.24,27.61
+ORD-1055,2025-06-14,CUST-109,Home Office,North,Technology,Laptops,MacBook Air M3,1,763.93,0.05,94.96,24.49
+ORD-1056,2025-10-15,CUST-133,Consumer,West,Office Supplies,Paper,Cardstock Paper,2,777.65,0.1,84.96,29.12
+ORD-1057,2025-08-24,CUST-104,Consumer,East,Technology,Phones,Motorola Edge,7,4254.48,0.05,1009.24,9.81
+ORD-1058,2025-07-11,CUST-133,Consumer,South,Furniture,Tables,Executive Wooden Desk,3,2174.29,0.0,496.82,28.08
+ORD-1059,2025-01-30,CUST-141,Home Office,North,Technology,Copiers,Brother Laser Printer,8,5408.33,0.1,296.93,4.47
+ORD-1060,2025-09-19,CUST-101,Consumer,East,Office Supplies,Binders,Zipper Binder,9,3385.74,0.05,558.89,25.33
+ORD-1061,2025-12-26,CUST-103,Consumer,East,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,2,975.04,0.0,297.82,14.04
+ORD-1062,2025-06-19,CUST-121,Consumer,North,Technology,Phones,Motorola Edge,2,232.13,0.0,41.88,5.95
+ORD-1063,2025-02-16,CUST-121,Consumer,South,Office Supplies,Appliances,Compact Refrigerator,4,2591.47,0.1,211.25,9.7
+ORD-1064,2025-05-07,CUST-121,Consumer,West,Office Supplies,Paper,Multipurpose Printer Paper,8,955.97,0.05,258.64,26.99
+ORD-1065,2025-10-01,CUST-137,Corporate,East,Technology,Accessories,Wireless Mouse,7,1874.83,0.0,340.98,6.83
+ORD-1066,2025-05-25,CUST-112,Corporate,West,Furniture,Bookcases,Oak 4-Shelf Bookcase,2,166.46,0.05,34.85,26.85
+ORD-1067,2025-08-24,CUST-118,Consumer,North,Furniture,Furnishings,Anti-Fatigue Mat,2,413.63,0.0,75.52,32.88
+ORD-1068,2025-05-30,CUST-120,Consumer,East,Furniture,Bookcases,Metal Storage Shelf,8,5751.69,0.0,1329.38,16.13
+ORD-1069,2025-02-05,CUST-123,Consumer,South,Office Supplies,Art,Drafting Pens,6,4682.57,0.0,1314.51,29.27
+ORD-1070,2025-07-13,CUST-114,Corporate,South,Office Supplies,Appliances,Compact Refrigerator,6,4649.25,0.1,394.67,26.56
+ORD-1071,2025-05-20,CUST-146,Corporate,South,Furniture,Chairs,Executive Leather Chair,4,1066.82,0.05,168.23,17.54
+ORD-1072,2025-09-18,CUST-122,Corporate,South,Technology,Copiers,Brother Laser Printer,4,859.57,0.05,215.37,22.06
+ORD-1073,2025-02-07,CUST-134,Consumer,North,Technology,Laptops,HP Spectre,2,225.15,0.1,56.54,8.8
+ORD-1074,2025-02-04,CUST-100,Corporate,South,Technology,Copiers,Epson EcoTank,9,5437.3,0.1,1226.95,8.96
+ORD-1075,2025-12-05,CUST-113,Corporate,West,Technology,Phones,Samsung Galaxy S24,9,4960.27,0.0,1381.17,31.79
+ORD-1076,2025-05-05,CUST-137,Corporate,East,Office Supplies,Storage,Filing Cabinet 3-Drawer,1,721.17,0.0,170.12,32.01
+ORD-1077,2025-02-08,CUST-105,Home Office,East,Office Supplies,Paper,Sticky Notes Pack,1,433.77,0.15,77.03,7.85
+ORD-1078,2025-04-07,CUST-136,Corporate,North,Furniture,Furnishings,Anti-Fatigue Mat,2,1227.06,0.15,101.47,29.28
+ORD-1079,2025-06-08,CUST-146,Home Office,West,Office Supplies,Appliances,Compact Refrigerator,4,2327.87,0.1,428.93,25.21
+ORD-1080,2025-10-19,CUST-125,Consumer,North,Office Supplies,Paper,Cardstock Paper,6,1978.01,0.0,666.23,7.91
+ORD-1081,2025-05-21,CUST-139,Corporate,North,Technology,Accessories,Monitor Arm,4,2944.88,0.1,133.05,23.84
+ORD-1082,2025-04-02,CUST-130,Corporate,South,Office Supplies,Appliances,Coffee Maker,8,5397.96,0.15,194.85,10.55
+ORD-1083,2025-12-12,CUST-145,Consumer,East,Technology,Phones,Google Pixel 8,6,2533.73,0.05,417.47,4.75
+ORD-1084,2025-05-17,CUST-109,Home Office,North,Furniture,Chairs,Drafting Stool,4,1747.42,0.15,146.08,14.1
+ORD-1085,2025-12-13,CUST-116,Corporate,East,Office Supplies,Binders,Presentation Folder,8,3747.53,0.0,406.49,12.97
+ORD-1086,2025-10-12,CUST-142,Corporate,West,Furniture,Chairs,Ergonomic Mesh Chair,7,5465.6,0.0,1308.06,30.54
+ORD-1087,2025-03-04,CUST-139,Corporate,North,Technology,Laptops,Lenovo ThinkPad,3,539.33,0.15,28.9,9.1
+ORD-1088,2025-10-13,CUST-115,Corporate,South,Technology,Laptops,Lenovo ThinkPad,2,853.29,0.0,170.82,20.91
+ORD-1089,2025-11-15,CUST-103,Consumer,North,Office Supplies,Binders,Presentation Folder,3,1561.62,0.0,166.07,8.0
+ORD-1090,2025-06-27,CUST-106,Corporate,North,Technology,Accessories,USB-C Hub,8,1351.59,0.05,285.62,13.86
+ORD-1091,2025-08-17,CUST-102,Home Office,West,Office Supplies,Paper,Sticky Notes Pack,8,4655.84,0.15,867.95,15.71
+ORD-1092,2025-06-14,CUST-120,Consumer,East,Furniture,Bookcases,Metal Storage Shelf,7,4148.8,0.1,280.56,31.05
+ORD-1093,2025-10-12,CUST-117,Home Office,East,Technology,Copiers,Epson EcoTank,2,600.0,0.0,184.6,14.05
+ORD-1094,2025-09-13,CUST-129,Consumer,North,Office Supplies,Art,Cutting Mat,6,3762.66,0.0,908.47,34.53
+ORD-1095,2025-08-03,CUST-131,Consumer,East,Technology,Laptops,MacBook Air M3,8,4508.75,0.0,696.63,23.64
+ORD-1096,2025-01-04,CUST-125,Corporate,North,Furniture,Bookcases,Oak 4-Shelf Bookcase,6,4396.35,0.0,1073.28,11.77
+ORD-1097,2025-01-17,CUST-136,Corporate,South,Office Supplies,Appliances,Coffee Maker,6,734.73,0.15,143.79,22.12
+ORD-1098,2025-09-25,CUST-144,Corporate,East,Furniture,Chairs,Ergonomic Mesh Chair,5,1578.82,0.05,128.13,8.32
+ORD-1099,2025-12-29,CUST-100,Consumer,West,Office Supplies,Paper,Multipurpose Printer Paper,5,3360.54,0.0,1105.21,26.09
+ORD-1100,2025-08-20,CUST-134,Home Office,East,Office Supplies,Appliances,Compact Refrigerator,4,1755.11,0.0,544.76,30.09
+ORD-1101,2025-12-31,CUST-142,Consumer,South,Furniture,Chairs,Ergonomic Mesh Chair,9,2618.63,0.0,723.35,22.15
+ORD-1102,2025-01-25,CUST-138,Consumer,South,Technology,Copiers,Epson EcoTank,6,2869.99,0.0,352.71,32.35
+ORD-1103,2025-01-17,CUST-109,Corporate,North,Office Supplies,Art,Cutting Mat,8,4882.7,0.05,1222.0,26.17
+ORD-1104,2025-07-17,CUST-107,Consumer,North,Office Supplies,Binders,Presentation Folder,9,6804.78,0.0,1880.8,32.61
+ORD-1105,2025-10-09,CUST-120,Consumer,East,Furniture,Bookcases,Oak 4-Shelf Bookcase,7,1738.93,0.15,376.22,33.22
+ORD-1106,2025-03-23,CUST-130,Home Office,East,Office Supplies,Paper,Sticky Notes Pack,7,308.36,0.05,38.43,6.86
+ORD-1107,2025-04-08,CUST-102,Corporate,West,Furniture,Bookcases,Walnut Bookshelf,7,1837.52,0.05,473.71,13.2
+ORD-1108,2025-07-29,CUST-132,Home Office,South,Furniture,Tables,Executive Wooden Desk,3,2094.08,0.0,667.33,19.93
+ORD-1109,2025-04-06,CUST-134,Consumer,South,Technology,Laptops,MacBook Air M3,5,1958.14,0.05,263.42,15.75
+ORD-1110,2025-12-25,CUST-119,Corporate,South,Technology,Accessories,Wireless Mouse,8,1923.86,0.0,304.74,4.35
+ORD-1111,2025-07-12,CUST-145,Consumer,East,Technology,Phones,Motorola Edge,4,745.32,0.15,131.99,5.86
+ORD-1112,2025-07-17,CUST-138,Home Office,South,Office Supplies,Appliances,Coffee Maker,9,5386.79,0.0,1079.49,29.81
+ORD-1113,2025-11-06,CUST-144,Consumer,East,Furniture,Chairs,Executive Leather Chair,9,1452.19,0.1,172.49,4.85
+ORD-1114,2025-02-16,CUST-122,Home Office,East,Furniture,Chairs,Ergonomic Mesh Chair,3,1830.65,0.05,195.06,29.11
+ORD-1115,2025-09-26,CUST-146,Consumer,West,Furniture,Chairs,Executive Leather Chair,9,2898.61,0.0,635.29,4.42
+ORD-1116,2025-08-14,CUST-111,Consumer,East,Technology,Phones,Google Pixel 8,2,671.27,0.0,110.72,26.15
+ORD-1117,2025-03-31,CUST-117,Consumer,West,Technology,Copiers,Canon ImageCLASS,1,63.29,0.15,7.57,32.01
+ORD-1118,2025-11-19,CUST-139,Corporate,East,Technology,Phones,iPhone 15 Pro,6,2545.14,0.15,158.11,8.03
+ORD-1119,2025-10-31,CUST-140,Consumer,North,Technology,Phones,Samsung Galaxy S24,4,2002.44,0.1,151.56,31.19
+ORD-1120,2025-11-10,CUST-130,Home Office,South,Office Supplies,Appliances,Coffee Maker,7,988.38,0.1,224.59,19.24
+ORD-1121,2025-10-22,CUST-101,Consumer,South,Office Supplies,Storage,Filing Cabinet 3-Drawer,1,105.94,0.0,10.83,29.2
+ORD-1122,2025-11-22,CUST-118,Corporate,South,Technology,Copiers,Brother Laser Printer,5,477.35,0.15,74.55,5.17
+ORD-1123,2025-08-07,CUST-116,Corporate,North,Furniture,Tables,Standing Desk 60in,6,3014.51,0.0,958.27,34.15
+ORD-1124,2025-10-12,CUST-111,Corporate,East,Technology,Copiers,Epson EcoTank,1,269.03,0.0,78.72,24.87
+ORD-1125,2025-01-26,CUST-133,Consumer,North,Technology,Accessories,Wireless Mouse,9,1291.0,0.1,253.14,10.06
+ORD-1126,2025-05-10,CUST-146,Corporate,South,Office Supplies,Binders,Zipper Binder,1,771.14,0.0,218.09,32.1
+ORD-1127,2025-12-23,CUST-119,Consumer,North,Technology,Accessories,USB-C Hub,1,266.78,0.1,55.44,9.41
+ORD-1128,2025-10-08,CUST-123,Consumer,East,Office Supplies,Art,Cutting Mat,9,6271.82,0.1,1338.77,30.03
+ORD-1129,2025-07-18,CUST-102,Corporate,West,Technology,Copiers,Brother Laser Printer,3,481.76,0.0,48.32,22.15
+ORD-1130,2025-08-24,CUST-119,Consumer,South,Technology,Copiers,Epson EcoTank,6,2831.09,0.0,847.6,12.93
+ORD-1131,2025-07-24,CUST-116,Consumer,South,Furniture,Furnishings,Anti-Fatigue Mat,6,1463.73,0.05,401.47,27.96
+ORD-1132,2025-09-24,CUST-121,Corporate,North,Technology,Copiers,Canon ImageCLASS,6,3001.51,0.1,498.01,3.31
+ORD-1133,2025-12-19,CUST-101,Corporate,North,Technology,Laptops,MacBook Air M3,4,1183.5,0.0,407.56,9.43
+ORD-1134,2025-05-02,CUST-149,Home Office,South,Office Supplies,Art,Marker Set 24-Pack,8,4116.78,0.1,193.93,32.96
+ORD-1135,2025-12-25,CUST-130,Corporate,South,Furniture,Furnishings,Anti-Fatigue Mat,4,1125.87,0.1,65.33,31.63
+ORD-1136,2025-11-10,CUST-121,Consumer,East,Office Supplies,Storage,Plastic Storage Bin,2,124.75,0.0,17.45,30.9
+ORD-1137,2025-05-02,CUST-118,Home Office,West,Technology,Copiers,Canon ImageCLASS,7,2487.94,0.0,349.35,3.67
+ORD-1138,2025-07-30,CUST-121,Consumer,West,Technology,Accessories,USB-C Hub,3,1646.94,0.0,177.31,11.25
+ORD-1139,2025-11-28,CUST-148,Home Office,East,Furniture,Chairs,Ergonomic Mesh Chair,4,2369.0,0.1,363.85,20.39
+ORD-1140,2025-04-06,CUST-140,Consumer,North,Furniture,Furnishings,Anti-Fatigue Mat,2,1274.94,0.05,389.66,12.08
+ORD-1141,2025-05-05,CUST-111,Consumer,South,Technology,Accessories,Wireless Mouse,3,1872.48,0.0,468.99,23.24
+ORD-1142,2025-01-14,CUST-113,Corporate,North,Technology,Laptops,MacBook Air M3,9,1881.69,0.15,196.88,19.47
+ORD-1143,2025-03-25,CUST-101,Consumer,North,Office Supplies,Storage,Filing Cabinet 3-Drawer,2,1377.04,0.0,340.27,22.16
+ORD-1144,2025-06-13,CUST-144,Consumer,East,Office Supplies,Paper,Sticky Notes Pack,6,889.56,0.05,133.47,29.52
+ORD-1145,2025-09-14,CUST-104,Consumer,East,Technology,Phones,Motorola Edge,6,879.49,0.0,249.86,24.24
+ORD-1146,2025-06-14,CUST-148,Home Office,West,Office Supplies,Art,Drafting Pens,4,907.01,0.0,211.15,32.97
+ORD-1147,2025-10-12,CUST-100,Consumer,South,Technology,Phones,Google Pixel 8,5,480.49,0.05,112.17,15.72
+ORD-1148,2025-08-30,CUST-123,Corporate,South,Furniture,Chairs,Executive Leather Chair,9,4233.49,0.0,975.53,13.96
+ORD-1149,2025-10-21,CUST-119,Consumer,South,Technology,Copiers,Brother Laser Printer,7,997.29,0.0,281.94,8.0
+ORD-1150,2025-12-24,CUST-104,Home Office,East,Furniture,Chairs,Drafting Stool,7,5295.66,0.05,996.0,22.77
+ORD-1151,2025-05-16,CUST-146,Corporate,West,Office Supplies,Storage,Plastic Storage Bin,4,2184.25,0.0,578.22,15.6
+ORD-1152,2025-03-10,CUST-140,Consumer,West,Furniture,Tables,Conference Table,9,6256.39,0.2,816.37,5.9
+ORD-1153,2025-06-08,CUST-140,Consumer,South,Technology,Laptops,Dell XPS 13,4,2156.24,0.1,456.08,28.53
+ORD-1154,2025-12-05,CUST-144,Home Office,West,Furniture,Tables,Executive Wooden Desk,9,2455.01,0.05,527.42,21.03
+ORD-1155,2025-11-12,CUST-128,Consumer,North,Technology,Accessories,Monitor Arm,6,434.75,0.05,99.43,22.82
+ORD-1156,2025-09-22,CUST-102,Corporate,West,Furniture,Tables,Standing Desk 60in,9,2821.08,0.0,691.29,20.08
+ORD-1157,2025-09-28,CUST-142,Corporate,South,Furniture,Tables,Executive Wooden Desk,5,843.43,0.0,220.87,31.74
+ORD-1158,2025-10-08,CUST-135,Home Office,East,Technology,Phones,Samsung Galaxy S24,3,283.85,0.0,46.61,12.12
+ORD-1159,2025-01-27,CUST-128,Home Office,East,Furniture,Furnishings,Anti-Fatigue Mat,2,657.85,0.2,95.15,19.72
+ORD-1160,2025-09-20,CUST-130,Home Office,East,Technology,Accessories,USB-C Hub,8,5102.6,0.0,1680.99,16.58
+ORD-1161,2025-09-20,CUST-100,Consumer,North,Furniture,Bookcases,Walnut Bookshelf,7,3610.73,0.05,761.74,28.4
+ORD-1162,2025-09-28,CUST-109,Consumer,North,Technology,Laptops,HP Spectre,8,2339.49,0.0,690.46,11.79
+ORD-1163,2025-01-19,CUST-135,Consumer,South,Technology,Laptops,Lenovo ThinkPad,4,530.07,0.0,73.28,10.53
+ORD-1164,2025-04-18,CUST-133,Consumer,North,Technology,Laptops,HP Spectre,5,2594.74,0.05,518.53,10.42
+ORD-1165,2025-03-19,CUST-112,Corporate,South,Technology,Laptops,HP Spectre,3,1451.05,0.05,254.14,17.27
+ORD-1166,2025-08-29,CUST-110,Home Office,West,Furniture,Bookcases,Metal Storage Shelf,6,2814.2,0.0,337.3,5.74
+ORD-1167,2025-12-19,CUST-135,Consumer,West,Technology,Accessories,Mechanical Keyboard,9,4495.21,0.0,1384.37,24.43
+ORD-1168,2025-01-27,CUST-131,Corporate,South,Furniture,Bookcases,Metal Storage Shelf,3,493.22,0.0,95.99,14.61
+ORD-1169,2025-10-18,CUST-133,Consumer,West,Furniture,Furnishings,Anti-Fatigue Mat,4,3079.63,0.05,767.67,8.46
+ORD-1170,2025-04-16,CUST-129,Consumer,West,Technology,Copiers,Epson EcoTank,7,2299.24,0.0,800.41,32.66
+ORD-1171,2025-12-30,CUST-100,Home Office,North,Furniture,Tables,Conference Table,8,4863.1,0.0,1490.62,28.02
+ORD-1172,2025-08-14,CUST-113,Consumer,East,Furniture,Chairs,Executive Leather Chair,9,754.2,0.15,96.3,12.78
+ORD-1173,2025-06-29,CUST-122,Home Office,South,Office Supplies,Binders,Presentation Folder,6,2758.57,0.0,621.47,15.71
+ORD-1174,2025-06-15,CUST-117,Corporate,South,Furniture,Tables,Conference Table,6,755.42,0.0,230.16,13.32
+ORD-1175,2025-06-12,CUST-101,Consumer,East,Furniture,Tables,Conference Table,9,4198.53,0.0,749.15,22.4
+ORD-1176,2025-11-17,CUST-145,Home Office,South,Technology,Copiers,Epson EcoTank,3,983.85,0.0,188.78,5.18
+ORD-1177,2025-01-25,CUST-114,Home Office,West,Technology,Accessories,Mechanical Keyboard,4,1440.07,0.0,374.72,9.91
+ORD-1178,2025-09-11,CUST-101,Corporate,East,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,3,496.65,0.0,109.83,27.14
+ORD-1179,2025-02-25,CUST-114,Home Office,East,Technology,Accessories,Wireless Mouse,9,5664.75,0.0,818.23,25.13
+ORD-1180,2025-04-07,CUST-103,Corporate,West,Technology,Phones,Google Pixel 8,4,605.58,0.05,164.36,26.18
+ORD-1181,2025-04-26,CUST-134,Consumer,West,Furniture,Tables,Executive Wooden Desk,5,1594.28,0.2,47.38,7.28
+ORD-1182,2025-09-03,CUST-137,Consumer,South,Office Supplies,Paper,Sticky Notes Pack,5,919.67,0.0,147.42,34.23
+ORD-1183,2025-12-04,CUST-136,Home Office,West,Technology,Accessories,Wireless Mouse,5,3389.1,0.0,752.58,7.8
+ORD-1184,2025-02-21,CUST-147,Corporate,West,Office Supplies,Storage,Filing Cabinet 3-Drawer,4,2759.03,0.0,935.46,7.26
+ORD-1185,2025-07-11,CUST-116,Corporate,North,Technology,Laptops,HP Spectre,1,675.08,0.0,219.7,17.77
+ORD-1186,2025-07-22,CUST-133,Consumer,South,Technology,Accessories,Wireless Mouse,7,2953.65,0.0,839.9,19.39
+ORD-1187,2025-04-11,CUST-107,Consumer,North,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,3,212.81,0.0,72.17,26.6
+ORD-1188,2025-11-10,CUST-130,Consumer,East,Office Supplies,Binders,Zipper Binder,3,481.14,0.0,59.95,24.13
+ORD-1189,2025-12-18,CUST-107,Consumer,South,Office Supplies,Art,Marker Set 24-Pack,8,4950.72,0.05,795.63,9.58
+ORD-1190,2025-02-18,CUST-135,Corporate,South,Technology,Phones,iPhone 15 Pro,7,335.52,0.2,46.89,12.37
+ORD-1191,2025-09-15,CUST-112,Corporate,East,Furniture,Bookcases,Metal Storage Shelf,1,743.55,0.0,143.54,16.83
+ORD-1192,2025-05-04,CUST-124,Consumer,West,Furniture,Furnishings,Desk Lamp,3,2133.71,0.05,294.24,29.11
+ORD-1193,2025-04-29,CUST-138,Home Office,North,Office Supplies,Paper,Multipurpose Printer Paper,5,3915.21,0.1,648.0,8.78
+ORD-1194,2025-08-12,CUST-110,Consumer,South,Office Supplies,Storage,Plastic Storage Bin,2,199.47,0.05,18.32,33.88
+ORD-1195,2025-03-29,CUST-143,Corporate,East,Technology,Phones,iPhone 15 Pro,8,3962.99,0.0,546.47,6.0
+ORD-1196,2025-04-18,CUST-146,Home Office,North,Office Supplies,Paper,Cardstock Paper,8,1669.14,0.1,439.25,6.17
+ORD-1197,2025-08-12,CUST-141,Corporate,North,Furniture,Chairs,Executive Leather Chair,7,3484.31,0.05,554.44,20.24
+ORD-1198,2025-03-27,CUST-141,Corporate,South,Technology,Laptops,Dell XPS 13,9,6903.79,0.0,1254.65,7.76
+ORD-1199,2025-03-11,CUST-118,Home Office,West,Office Supplies,Appliances,Coffee Maker,8,1484.07,0.0,394.41,3.06
+ORD-1200,2025-12-25,CUST-120,Consumer,South,Technology,Phones,Motorola Edge,1,476.74,0.0,124.23,5.08
+ORD-1201,2025-12-02,CUST-103,Consumer,West,Furniture,Tables,Conference Table,3,680.43,0.1,103.5,5.47
+ORD-1202,2025-06-01,CUST-144,Corporate,South,Furniture,Chairs,Drafting Stool,4,1684.22,0.0,230.51,13.5
+ORD-1203,2025-07-02,CUST-132,Consumer,West,Technology,Accessories,Monitor Arm,9,6727.45,0.05,1143.98,23.36
+ORD-1204,2025-08-28,CUST-146,Consumer,South,Office Supplies,Art,Drafting Pens,7,3247.44,0.05,369.6,14.59
+ORD-1205,2025-02-19,CUST-102,Consumer,North,Furniture,Tables,Conference Table,6,2530.15,0.0,848.03,11.3
+ORD-1206,2025-10-29,CUST-125,Home Office,North,Technology,Copiers,Canon ImageCLASS,5,1873.38,0.0,249.85,5.58
+ORD-1207,2025-08-19,CUST-138,Consumer,North,Technology,Copiers,Brother Laser Printer,9,1257.69,0.05,128.47,27.04
+ORD-1208,2025-06-01,CUST-124,Home Office,South,Furniture,Tables,Conference Table,7,1462.15,0.15,92.16,11.7
+ORD-1209,2025-07-01,CUST-130,Consumer,North,Furniture,Furnishings,Desk Lamp,4,165.55,0.0,54.07,7.46
+ORD-1210,2025-07-15,CUST-149,Consumer,East,Furniture,Bookcases,Walnut Bookshelf,2,1179.94,0.05,118.46,31.23
+ORD-1211,2025-06-03,CUST-143,Corporate,South,Technology,Phones,Samsung Galaxy S24,5,1081.88,0.05,126.63,21.09
+ORD-1212,2025-12-11,CUST-120,Corporate,North,Technology,Phones,iPhone 15 Pro,2,1160.41,0.0,141.81,24.88
+ORD-1213,2025-10-16,CUST-116,Home Office,North,Furniture,Furnishings,Anti-Fatigue Mat,9,5728.36,0.05,1234.83,10.24
+ORD-1214,2025-04-08,CUST-100,Consumer,North,Furniture,Tables,Standing Desk 60in,2,183.17,0.15,19.74,26.98
+ORD-1215,2025-03-17,CUST-123,Corporate,South,Office Supplies,Paper,Sticky Notes Pack,3,1896.69,0.0,312.3,8.27
+ORD-1216,2025-03-09,CUST-145,Corporate,East,Technology,Accessories,Mechanical Keyboard,4,2793.62,0.0,594.51,34.52
+ORD-1217,2025-01-26,CUST-148,Consumer,North,Furniture,Bookcases,Oak 4-Shelf Bookcase,4,2566.8,0.0,546.53,15.72
+ORD-1218,2025-07-16,CUST-110,Consumer,South,Technology,Copiers,Canon ImageCLASS,5,1300.97,0.05,151.58,31.7
+ORD-1219,2025-07-29,CUST-141,Consumer,South,Furniture,Bookcases,Walnut Bookshelf,3,2157.87,0.0,489.32,22.14
+ORD-1220,2025-01-08,CUST-136,Corporate,West,Office Supplies,Appliances,Coffee Maker,6,4648.13,0.15,162.68,26.67
+ORD-1221,2025-01-16,CUST-100,Consumer,East,Technology,Phones,Samsung Galaxy S24,2,290.55,0.15,29.3,8.19
+ORD-1222,2025-10-10,CUST-104,Corporate,North,Technology,Copiers,Brother Laser Printer,5,3895.82,0.0,678.35,32.38
+ORD-1223,2025-05-14,CUST-118,Corporate,North,Office Supplies,Paper,Sticky Notes Pack,9,2662.84,0.0,817.66,13.73
+ORD-1224,2025-10-04,CUST-127,Home Office,South,Technology,Phones,Google Pixel 8,4,2902.83,0.1,241.03,22.64
+ORD-1225,2025-10-06,CUST-147,Corporate,North,Technology,Copiers,Epson EcoTank,3,118.28,0.1,7.56,13.08
+ORD-1226,2025-09-05,CUST-127,Corporate,South,Technology,Copiers,Canon ImageCLASS,8,576.37,0.0,106.68,30.72
+ORD-1227,2025-10-30,CUST-137,Consumer,North,Office Supplies,Storage,Filing Cabinet 3-Drawer,5,2638.66,0.15,514.88,27.51
+ORD-1228,2025-12-21,CUST-112,Home Office,East,Technology,Laptops,Lenovo ThinkPad,7,1034.1,0.0,201.52,10.26
+ORD-1229,2025-11-24,CUST-134,Consumer,East,Furniture,Bookcases,Oak 4-Shelf Bookcase,9,3112.5,0.0,1063.11,7.08
+ORD-1230,2025-03-24,CUST-145,Home Office,South,Office Supplies,Storage,Filing Cabinet 3-Drawer,7,3519.29,0.05,771.45,20.05
+ORD-1231,2025-10-02,CUST-146,Consumer,West,Furniture,Chairs,Ergonomic Mesh Chair,4,363.12,0.0,37.44,18.0
+ORD-1232,2025-03-30,CUST-113,Corporate,East,Technology,Accessories,Mechanical Keyboard,9,475.13,0.15,90.8,24.37
+ORD-1233,2025-04-20,CUST-121,Home Office,East,Office Supplies,Appliances,Coffee Maker,1,238.95,0.0,39.89,28.25
+ORD-1234,2025-09-12,CUST-120,Consumer,West,Technology,Accessories,Monitor Arm,1,593.99,0.05,46.18,30.79
+ORD-1235,2025-08-04,CUST-131,Corporate,North,Office Supplies,Art,Cutting Mat,9,2542.86,0.0,362.73,33.34
+ORD-1236,2025-02-07,CUST-119,Corporate,East,Office Supplies,Art,Cutting Mat,3,1580.99,0.2,158.3,26.8
+ORD-1237,2025-09-14,CUST-107,Corporate,South,Furniture,Chairs,Executive Leather Chair,1,46.22,0.05,13.2,10.64
+ORD-1238,2025-12-28,CUST-100,Consumer,North,Technology,Accessories,Monitor Arm,3,1098.79,0.0,272.19,20.18
+ORD-1239,2025-02-18,CUST-145,Consumer,West,Office Supplies,Art,Marker Set 24-Pack,7,4515.21,0.05,865.83,12.39
+ORD-1240,2025-08-21,CUST-108,Home Office,North,Technology,Phones,Motorola Edge,5,1430.0,0.05,397.01,18.79
+ORD-1241,2025-09-24,CUST-145,Home Office,North,Office Supplies,Appliances,Compact Refrigerator,8,2769.08,0.0,905.22,25.85
+ORD-1242,2025-09-25,CUST-147,Consumer,South,Office Supplies,Art,Cutting Mat,5,81.14,0.05,6.67,11.24
+ORD-1243,2025-08-03,CUST-148,Corporate,South,Furniture,Tables,Conference Table,1,373.15,0.0,48.61,16.41
+ORD-1244,2025-03-25,CUST-148,Consumer,South,Office Supplies,Storage,Desktop Organizer,2,1079.66,0.05,168.38,22.0
+ORD-1245,2025-09-23,CUST-113,Corporate,South,Technology,Phones,Google Pixel 8,3,1749.96,0.0,569.81,5.13
+ORD-1246,2025-12-16,CUST-139,Home Office,North,Furniture,Furnishings,Monitor Stand,1,81.25,0.0,26.61,28.86
+ORD-1247,2025-05-07,CUST-130,Consumer,West,Technology,Laptops,HP Spectre,5,2793.03,0.0,749.21,11.81
+ORD-1248,2025-05-02,CUST-129,Consumer,South,Office Supplies,Binders,Zipper Binder,9,3179.91,0.0,780.83,14.88
+ORD-1249,2025-11-09,CUST-135,Consumer,West,Office Supplies,Paper,Multipurpose Printer Paper,7,888.55,0.15,74.19,7.94
+ORD-1250,2025-06-06,CUST-109,Corporate,West,Office Supplies,Binders,Zipper Binder,1,94.49,0.1,15.07,29.94
+ORD-1251,2025-07-23,CUST-137,Consumer,West,Technology,Phones,Samsung Galaxy S24,5,971.81,0.2,83.95,7.35
+ORD-1252,2025-06-03,CUST-126,Consumer,East,Office Supplies,Paper,Sticky Notes Pack,2,521.73,0.0,115.8,7.16
+ORD-1253,2025-05-02,CUST-136,Home Office,North,Office Supplies,Art,Cutting Mat,9,7087.05,0.0,2411.61,15.46
+ORD-1254,2025-04-19,CUST-131,Consumer,West,Technology,Phones,iPhone 15 Pro,1,432.82,0.0,70.0,29.83
+ORD-1255,2025-02-11,CUST-133,Consumer,East,Furniture,Chairs,Ergonomic Mesh Chair,5,3868.19,0.05,589.82,21.57
+ORD-1256,2025-10-07,CUST-134,Consumer,South,Office Supplies,Art,Drafting Pens,1,591.64,0.0,107.36,28.36
+ORD-1257,2025-10-02,CUST-136,Corporate,West,Technology,Phones,iPhone 15 Pro,4,2907.8,0.0,721.87,22.17
+ORD-1258,2025-11-06,CUST-144,Consumer,South,Technology,Laptops,Lenovo ThinkPad,7,790.89,0.1,80.71,31.07
+ORD-1259,2025-01-12,CUST-105,Consumer,East,Furniture,Furnishings,Anti-Fatigue Mat,7,2167.44,0.0,326.86,27.38
+ORD-1260,2025-07-22,CUST-149,Corporate,North,Furniture,Bookcases,Metal Storage Shelf,3,1462.99,0.05,382.67,18.25
+ORD-1261,2025-11-25,CUST-107,Home Office,North,Technology,Phones,iPhone 15 Pro,8,512.23,0.15,53.92,19.33
+ORD-1262,2025-07-08,CUST-130,Corporate,South,Furniture,Chairs,Executive Leather Chair,3,1675.91,0.0,293.03,14.48
+ORD-1263,2025-07-13,CUST-140,Consumer,West,Furniture,Chairs,Executive Leather Chair,3,2394.87,0.05,638.86,12.43
+ORD-1264,2025-05-15,CUST-102,Corporate,North,Technology,Phones,Google Pixel 8,5,97.24,0.15,17.96,28.89
+ORD-1265,2025-09-14,CUST-135,Corporate,East,Office Supplies,Storage,Plastic Storage Bin,4,1338.31,0.0,250.54,6.55
+ORD-1266,2025-07-07,CUST-112,Home Office,South,Technology,Phones,Google Pixel 8,6,1500.95,0.0,337.95,28.42
+ORD-1267,2025-05-24,CUST-137,Consumer,South,Furniture,Chairs,Drafting Stool,2,471.18,0.1,117.36,15.96
+ORD-1268,2025-01-27,CUST-128,Corporate,East,Technology,Phones,iPhone 15 Pro,5,207.15,0.0,42.26,27.31
+ORD-1269,2025-01-31,CUST-116,Corporate,West,Furniture,Tables,Conference Table,4,2021.82,0.0,547.21,10.74
+ORD-1270,2025-02-22,CUST-123,Consumer,South,Office Supplies,Art,Marker Set 24-Pack,7,4065.0,0.0,567.7,31.22
+ORD-1271,2025-09-05,CUST-133,Corporate,North,Technology,Accessories,Wireless Mouse,1,416.24,0.0,70.36,25.62
+ORD-1272,2025-12-09,CUST-123,Home Office,North,Furniture,Chairs,Ergonomic Mesh Chair,9,2680.05,0.0,832.63,13.03
+ORD-1273,2025-04-10,CUST-117,Home Office,North,Office Supplies,Storage,Plastic Storage Bin,8,6174.41,0.0,1677.93,18.8
+ORD-1274,2025-11-12,CUST-126,Home Office,East,Furniture,Bookcases,Walnut Bookshelf,5,2873.71,0.05,860.49,27.35
+ORD-1275,2025-09-30,CUST-103,Corporate,South,Technology,Phones,Motorola Edge,3,1538.87,0.2,1.48,18.95
+ORD-1276,2025-12-25,CUST-127,Home Office,East,Office Supplies,Paper,Cardstock Paper,3,915.91,0.0,267.35,16.33
+ORD-1277,2025-04-10,CUST-130,Corporate,North,Technology,Laptops,Lenovo ThinkPad,6,4235.54,0.0,1141.28,22.45
+ORD-1278,2025-06-11,CUST-108,Consumer,East,Furniture,Bookcases,Metal Storage Shelf,5,2752.61,0.0,673.82,5.73
+ORD-1279,2025-08-23,CUST-134,Corporate,North,Furniture,Tables,Conference Table,5,1125.3,0.1,48.73,15.13
+ORD-1280,2025-10-07,CUST-101,Consumer,West,Furniture,Tables,Executive Wooden Desk,9,5336.26,0.0,1742.38,11.53
+ORD-1281,2025-01-29,CUST-142,Home Office,South,Furniture,Tables,Standing Desk 60in,4,1488.45,0.0,230.64,7.21
+ORD-1282,2025-10-10,CUST-141,Corporate,South,Technology,Laptops,MacBook Air M3,6,2141.24,0.0,397.09,26.65
+ORD-1283,2025-01-07,CUST-111,Consumer,East,Technology,Copiers,Canon ImageCLASS,7,4936.51,0.05,986.83,29.55
+ORD-1284,2025-08-05,CUST-107,Consumer,East,Office Supplies,Appliances,Compact Refrigerator,2,977.17,0.0,112.31,24.49
+ORD-1285,2025-01-04,CUST-125,Home Office,East,Technology,Copiers,Brother Laser Printer,6,1812.36,0.0,269.97,7.51
+ORD-1286,2025-01-26,CUST-124,Corporate,North,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,5,2144.52,0.15,96.13,23.57
+ORD-1287,2025-11-17,CUST-148,Home Office,South,Furniture,Furnishings,Desk Lamp,9,5009.85,0.05,1457.96,18.91
+ORD-1288,2025-12-27,CUST-110,Consumer,North,Furniture,Tables,Executive Wooden Desk,2,409.77,0.05,94.82,5.44
+ORD-1289,2025-10-21,CUST-121,Corporate,South,Furniture,Tables,Standing Desk 60in,3,435.34,0.0,66.3,4.6
+ORD-1290,2025-06-10,CUST-116,Home Office,North,Furniture,Bookcases,Walnut Bookshelf,6,602.89,0.05,113.54,16.01
+ORD-1291,2025-07-06,CUST-125,Corporate,West,Office Supplies,Appliances,Compact Refrigerator,2,961.89,0.0,245.85,34.4
+ORD-1292,2025-09-17,CUST-143,Corporate,East,Technology,Laptops,MacBook Air M3,5,3815.12,0.2,223.41,30.34
+ORD-1293,2025-12-18,CUST-135,Consumer,North,Office Supplies,Storage,Desktop Organizer,4,1834.37,0.1,279.29,3.39
+ORD-1294,2025-03-15,CUST-135,Consumer,West,Furniture,Bookcases,Walnut Bookshelf,5,946.65,0.0,295.36,26.32
+ORD-1295,2025-04-01,CUST-121,Consumer,North,Technology,Accessories,Monitor Arm,4,967.1,0.0,319.03,34.78
+ORD-1296,2025-06-09,CUST-124,Corporate,North,Office Supplies,Art,Marker Set 24-Pack,3,180.89,0.0,30.55,22.91
+ORD-1297,2025-06-22,CUST-128,Corporate,East,Furniture,Furnishings,Desk Lamp,2,1446.51,0.15,313.97,3.88
+ORD-1298,2025-11-11,CUST-110,Corporate,North,Furniture,Chairs,Ergonomic Mesh Chair,6,4172.49,0.0,1408.69,21.61
+ORD-1299,2025-05-19,CUST-120,Corporate,South,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,7,5018.05,0.15,1001.95,16.42
+ORD-1300,2025-05-12,CUST-122,Consumer,East,Furniture,Furnishings,Desk Lamp,8,1288.93,0.0,404.41,9.63
+ORD-1301,2025-11-20,CUST-114,Home Office,North,Office Supplies,Binders,Zipper Binder,4,2237.96,0.1,419.16,7.85
+ORD-1302,2025-06-30,CUST-122,Home Office,East,Furniture,Chairs,Executive Leather Chair,9,135.08,0.0,31.15,4.75
+ORD-1303,2025-05-18,CUST-139,Consumer,South,Technology,Phones,Motorola Edge,3,2123.84,0.0,313.86,12.92
+ORD-1304,2025-08-27,CUST-140,Home Office,East,Furniture,Tables,Conference Table,5,2872.04,0.1,232.24,14.87
+ORD-1305,2025-02-16,CUST-135,Home Office,West,Furniture,Chairs,Executive Leather Chair,5,662.19,0.0,134.83,27.12
+ORD-1306,2025-02-01,CUST-133,Corporate,North,Technology,Accessories,Monitor Arm,6,1339.69,0.05,188.14,25.86
+ORD-1307,2025-12-23,CUST-137,Corporate,East,Technology,Accessories,Monitor Arm,1,747.35,0.1,147.13,25.86
+ORD-1308,2025-07-17,CUST-100,Consumer,South,Office Supplies,Appliances,Coffee Maker,9,2071.32,0.1,173.84,14.05
+ORD-1309,2025-09-19,CUST-119,Home Office,East,Technology,Accessories,Wireless Mouse,7,3123.46,0.0,689.11,19.21
+ORD-1310,2025-12-18,CUST-103,Consumer,East,Office Supplies,Art,Drafting Pens,8,5128.6,0.05,1386.15,6.12
+ORD-1311,2025-08-04,CUST-128,Home Office,North,Technology,Phones,Motorola Edge,3,1056.7,0.0,233.07,6.79
+ORD-1312,2025-08-28,CUST-134,Home Office,West,Office Supplies,Binders,Presentation Folder,9,1246.14,0.0,214.97,30.89
+ORD-1313,2025-11-09,CUST-136,Consumer,South,Office Supplies,Binders,Presentation Folder,7,5083.95,0.0,1365.07,4.66
+ORD-1314,2025-04-23,CUST-111,Consumer,East,Technology,Accessories,Monitor Arm,1,748.97,0.0,239.29,22.38
+ORD-1315,2025-02-28,CUST-132,Consumer,West,Technology,Accessories,Mechanical Keyboard,5,358.04,0.0,69.95,34.43
+ORD-1316,2025-03-25,CUST-106,Corporate,South,Office Supplies,Binders,Presentation Folder,8,6339.47,0.0,2125.74,32.27
+ORD-1317,2025-08-06,CUST-128,Home Office,South,Furniture,Tables,Standing Desk 60in,9,5348.16,0.1,722.61,14.09
+ORD-1318,2025-07-23,CUST-106,Consumer,South,Furniture,Chairs,Drafting Stool,2,481.31,0.05,144.41,22.32
+ORD-1319,2025-10-22,CUST-126,Consumer,South,Office Supplies,Storage,Plastic Storage Bin,4,1941.0,0.05,434.82,11.56
+ORD-1320,2025-10-17,CUST-121,Home Office,East,Office Supplies,Paper,Multipurpose Printer Paper,1,542.56,0.05,105.73,10.98
+ORD-1321,2025-09-15,CUST-128,Consumer,East,Furniture,Chairs,Executive Leather Chair,5,3783.09,0.1,902.92,9.48
+ORD-1322,2025-10-05,CUST-135,Corporate,North,Technology,Copiers,Canon ImageCLASS,1,317.71,0.15,39.77,33.07
+ORD-1323,2025-05-18,CUST-135,Corporate,South,Furniture,Furnishings,Anti-Fatigue Mat,6,569.92,0.0,118.77,5.96
+ORD-1324,2025-12-07,CUST-124,Consumer,East,Technology,Accessories,Wireless Mouse,3,1433.16,0.05,317.37,10.74
+ORD-1325,2025-07-31,CUST-144,Consumer,North,Technology,Accessories,USB-C Hub,4,103.16,0.0,15.85,11.67
+ORD-1326,2025-10-17,CUST-139,Consumer,South,Office Supplies,Paper,Multipurpose Printer Paper,2,614.35,0.0,197.35,15.27
+ORD-1327,2025-06-13,CUST-112,Corporate,East,Furniture,Tables,Standing Desk 60in,7,4159.86,0.05,358.83,14.88
+ORD-1328,2025-03-14,CUST-105,Corporate,East,Technology,Copiers,Canon ImageCLASS,6,4139.77,0.0,1228.86,16.16
+ORD-1329,2025-02-27,CUST-142,Corporate,South,Furniture,Furnishings,Anti-Fatigue Mat,5,3152.15,0.0,709.3,28.12
+ORD-1330,2025-07-05,CUST-112,Consumer,West,Office Supplies,Appliances,Air Purifier,6,223.35,0.0,38.03,25.81
+ORD-1331,2025-08-30,CUST-100,Home Office,North,Technology,Phones,iPhone 15 Pro,5,3006.1,0.1,679.26,17.28
+ORD-1332,2025-03-10,CUST-100,Consumer,West,Office Supplies,Paper,Sticky Notes Pack,9,2656.4,0.0,815.88,28.26
+ORD-1333,2025-11-07,CUST-145,Home Office,West,Technology,Copiers,Brother Laser Printer,1,411.92,0.15,80.83,6.28
+ORD-1334,2025-05-17,CUST-105,Corporate,East,Office Supplies,Storage,Plastic Storage Bin,5,2731.99,0.1,637.16,26.95
+ORD-1335,2025-11-09,CUST-121,Consumer,East,Technology,Accessories,Wireless Mouse,4,780.94,0.0,110.36,3.06
+ORD-1336,2025-05-14,CUST-143,Corporate,South,Furniture,Chairs,Executive Leather Chair,1,340.15,0.1,81.08,6.89
+ORD-1337,2025-04-25,CUST-135,Consumer,South,Office Supplies,Binders,Presentation Folder,8,3990.37,0.05,673.36,16.73
+ORD-1338,2025-01-19,CUST-102,Corporate,East,Furniture,Chairs,Ergonomic Mesh Chair,2,544.26,0.05,112.48,3.71
+ORD-1339,2025-08-27,CUST-112,Corporate,North,Technology,Phones,Google Pixel 8,8,4466.22,0.0,884.15,31.66
+ORD-1340,2025-01-07,CUST-148,Home Office,North,Technology,Laptops,MacBook Air M3,9,4891.49,0.0,1572.15,10.1
+ORD-1341,2025-10-09,CUST-115,Consumer,West,Technology,Copiers,Canon ImageCLASS,9,6311.02,0.0,832.09,12.14
+ORD-1342,2025-07-18,CUST-113,Corporate,East,Furniture,Chairs,Ergonomic Mesh Chair,3,76.48,0.0,20.03,3.5
+ORD-1343,2025-02-17,CUST-101,Consumer,South,Furniture,Furnishings,Monitor Stand,9,5384.87,0.1,876.42,34.41
+ORD-1344,2025-03-23,CUST-101,Corporate,South,Office Supplies,Art,Marker Set 24-Pack,3,563.36,0.0,108.8,5.2
+ORD-1345,2025-03-03,CUST-103,Consumer,West,Office Supplies,Paper,Sticky Notes Pack,2,1068.84,0.0,108.3,28.74
+ORD-1346,2025-11-13,CUST-114,Consumer,West,Technology,Laptops,Dell XPS 13,5,2120.21,0.0,571.12,27.27
+ORD-1347,2025-12-21,CUST-136,Consumer,West,Technology,Accessories,USB-C Hub,9,2586.29,0.0,361.23,11.26
+ORD-1348,2025-10-04,CUST-125,Home Office,North,Technology,Laptops,Dell XPS 13,6,1909.06,0.05,217.68,22.19
+ORD-1349,2025-04-04,CUST-129,Home Office,West,Office Supplies,Storage,Plastic Storage Bin,2,239.83,0.0,51.01,33.67
+ORD-1350,2025-03-03,CUST-137,Corporate,East,Furniture,Bookcases,Metal Storage Shelf,1,430.05,0.1,62.01,11.91
+ORD-1351,2025-12-22,CUST-106,Consumer,East,Technology,Accessories,USB-C Hub,4,1509.18,0.2,207.27,27.76
+ORD-1352,2025-12-06,CUST-111,Consumer,West,Technology,Phones,Google Pixel 8,6,248.62,0.15,15.35,20.83
+ORD-1353,2025-04-30,CUST-145,Corporate,South,Technology,Copiers,Brother Laser Printer,8,2162.83,0.15,479.46,29.41
+ORD-1354,2025-09-15,CUST-107,Consumer,South,Technology,Copiers,Brother Laser Printer,4,2895.71,0.15,522.06,24.58
+ORD-1355,2025-12-31,CUST-126,Consumer,East,Technology,Phones,iPhone 15 Pro,3,97.81,0.0,28.95,21.12
+ORD-1356,2025-10-31,CUST-134,Consumer,East,Furniture,Furnishings,Anti-Fatigue Mat,1,613.41,0.0,189.72,22.82
+ORD-1357,2025-12-21,CUST-102,Corporate,North,Technology,Laptops,Lenovo ThinkPad,9,624.8,0.05,152.51,24.64
+ORD-1358,2025-03-02,CUST-142,Corporate,West,Office Supplies,Binders,Presentation Folder,2,566.79,0.05,68.16,34.86
+ORD-1359,2025-09-25,CUST-149,Corporate,North,Furniture,Furnishings,Anti-Fatigue Mat,9,3695.79,0.15,691.03,14.6
+ORD-1360,2025-07-01,CUST-117,Consumer,East,Technology,Copiers,Canon ImageCLASS,7,3901.41,0.05,874.12,11.81
+ORD-1361,2025-12-05,CUST-100,Corporate,West,Technology,Accessories,Monitor Arm,6,2233.86,0.05,600.63,8.43
+ORD-1362,2025-04-22,CUST-132,Corporate,East,Office Supplies,Art,Cutting Mat,4,3077.29,0.05,572.43,15.86
+ORD-1363,2025-11-18,CUST-136,Home Office,South,Furniture,Tables,Executive Wooden Desk,8,716.03,0.05,169.61,5.13
+ORD-1364,2025-07-28,CUST-119,Home Office,West,Furniture,Tables,Executive Wooden Desk,7,2861.16,0.2,333.87,15.01
+ORD-1365,2025-08-03,CUST-123,Home Office,North,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,1,503.76,0.2,36.78,30.12
+ORD-1366,2025-08-10,CUST-145,Consumer,East,Technology,Accessories,Monitor Arm,1,540.41,0.15,40.55,20.66
+ORD-1367,2025-04-08,CUST-149,Consumer,South,Furniture,Bookcases,Metal Storage Shelf,6,4528.63,0.0,949.27,19.96
+ORD-1368,2025-10-20,CUST-139,Consumer,West,Office Supplies,Binders,Presentation Folder,8,1499.76,0.0,459.91,14.7
+ORD-1369,2025-05-05,CUST-112,Consumer,North,Furniture,Tables,Executive Wooden Desk,2,567.95,0.15,24.38,5.65
+ORD-1370,2025-05-10,CUST-130,Consumer,West,Furniture,Furnishings,Anti-Fatigue Mat,5,1953.1,0.1,211.55,12.97
+ORD-1371,2025-04-22,CUST-122,Consumer,East,Office Supplies,Paper,Multipurpose Printer Paper,7,418.1,0.0,89.73,26.2
+ORD-1372,2025-06-25,CUST-117,Corporate,West,Technology,Accessories,Mechanical Keyboard,7,4721.39,0.2,745.53,14.89
+ORD-1373,2025-08-07,CUST-120,Consumer,West,Technology,Accessories,Monitor Arm,6,4038.07,0.0,1271.78,16.02
+ORD-1374,2025-10-22,CUST-103,Consumer,West,Furniture,Furnishings,Desk Lamp,1,657.02,0.05,160.88,19.41
+ORD-1375,2025-09-27,CUST-130,Consumer,West,Office Supplies,Storage,Filing Cabinet 3-Drawer,6,710.09,0.15,32.04,30.34
+ORD-1376,2025-05-11,CUST-144,Consumer,West,Furniture,Furnishings,Desk Lamp,6,4658.35,0.05,484.29,14.99
+ORD-1377,2025-04-09,CUST-109,Consumer,East,Technology,Accessories,USB-C Hub,5,762.36,0.05,93.29,9.98
+ORD-1378,2025-09-07,CUST-119,Consumer,South,Technology,Phones,Google Pixel 8,2,114.02,0.0,18.02,11.49
+ORD-1379,2025-09-30,CUST-123,Consumer,South,Office Supplies,Appliances,Air Purifier,8,1423.36,0.0,465.59,17.98
+ORD-1380,2025-06-05,CUST-124,Corporate,East,Furniture,Tables,Conference Table,1,567.71,0.15,51.01,25.66
+ORD-1381,2025-12-04,CUST-112,Corporate,South,Technology,Copiers,Epson EcoTank,1,415.81,0.05,119.03,19.32
+ORD-1382,2025-02-22,CUST-122,Corporate,South,Technology,Phones,Motorola Edge,9,6063.81,0.0,644.24,17.37
+ORD-1383,2025-09-22,CUST-131,Consumer,North,Technology,Laptops,MacBook Air M3,9,1471.27,0.15,232.2,22.54
+ORD-1384,2025-02-11,CUST-110,Corporate,East,Technology,Phones,Motorola Edge,5,2295.69,0.15,211.91,5.12
+ORD-1385,2025-07-11,CUST-107,Corporate,East,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,5,3848.86,0.05,1122.47,11.5
+ORD-1386,2025-09-30,CUST-105,Corporate,South,Furniture,Tables,Executive Wooden Desk,5,3548.06,0.1,363.43,12.01
+ORD-1387,2025-02-27,CUST-112,Consumer,West,Technology,Phones,Motorola Edge,7,2498.87,0.1,256.33,7.55
+ORD-1388,2025-07-03,CUST-127,Consumer,South,Technology,Accessories,Monitor Arm,8,6016.9,0.0,900.27,8.28
+ORD-1389,2025-07-03,CUST-111,Consumer,East,Furniture,Chairs,Ergonomic Mesh Chair,2,327.35,0.0,37.65,31.95
+ORD-1390,2025-12-26,CUST-109,Consumer,West,Technology,Accessories,Mechanical Keyboard,1,20.4,0.0,5.42,16.16
+ORD-1391,2025-06-11,CUST-122,Home Office,West,Office Supplies,Art,Drafting Pens,7,693.28,0.0,195.8,33.09
+ORD-1392,2025-05-29,CUST-124,Home Office,West,Furniture,Chairs,Executive Leather Chair,1,106.78,0.05,31.56,7.39
+ORD-1393,2025-10-29,CUST-124,Consumer,North,Furniture,Chairs,Executive Leather Chair,1,50.52,0.0,5.24,21.61
+ORD-1394,2025-05-29,CUST-127,Home Office,West,Office Supplies,Binders,Presentation Folder,9,6794.89,0.0,1110.86,27.96
+ORD-1395,2025-08-25,CUST-136,Consumer,North,Furniture,Chairs,Ergonomic Mesh Chair,9,6463.11,0.1,1276.04,22.74
+ORD-1396,2025-09-24,CUST-127,Consumer,East,Furniture,Chairs,Drafting Stool,8,1981.13,0.15,364.49,34.47
+ORD-1397,2025-04-13,CUST-130,Corporate,West,Office Supplies,Paper,Sticky Notes Pack,4,145.57,0.05,17.74,34.66
+ORD-1398,2025-11-17,CUST-141,Consumer,North,Office Supplies,Storage,Plastic Storage Bin,6,4309.61,0.1,325.89,4.66
+ORD-1399,2025-03-31,CUST-112,Consumer,North,Furniture,Chairs,Executive Leather Chair,3,566.02,0.0,171.0,29.36
+ORD-1400,2025-10-10,CUST-112,Consumer,North,Office Supplies,Art,Cutting Mat,5,3739.97,0.05,733.96,4.05
+ORD-1401,2025-01-05,CUST-125,Consumer,South,Office Supplies,Paper,Cardstock Paper,4,1825.27,0.1,101.12,16.37
+ORD-1402,2025-01-19,CUST-142,Consumer,East,Technology,Accessories,USB-C Hub,4,1789.08,0.0,551.77,29.07
+ORD-1403,2025-11-13,CUST-116,Home Office,South,Technology,Accessories,Monitor Arm,4,1357.36,0.05,307.19,5.24
+ORD-1404,2025-08-27,CUST-103,Corporate,West,Furniture,Furnishings,Desk Lamp,2,904.55,0.0,204.07,26.41
+ORD-1405,2025-07-20,CUST-138,Consumer,West,Office Supplies,Art,Drafting Pens,7,3596.6,0.05,596.18,27.08
+ORD-1406,2025-05-26,CUST-149,Corporate,North,Office Supplies,Art,Cutting Mat,7,4681.95,0.05,1266.97,16.8
+ORD-1407,2025-01-04,CUST-128,Home Office,West,Furniture,Tables,Executive Wooden Desk,8,3558.12,0.0,1157.8,9.89
+ORD-1408,2025-11-19,CUST-141,Consumer,North,Office Supplies,Art,Marker Set 24-Pack,9,1624.91,0.15,299.54,17.1
+ORD-1409,2025-07-12,CUST-119,Consumer,East,Office Supplies,Appliances,Air Purifier,3,2394.4,0.0,514.59,16.79
+ORD-1410,2025-09-08,CUST-140,Consumer,South,Office Supplies,Appliances,Air Purifier,5,1280.82,0.05,216.57,8.13
+ORD-1411,2025-08-25,CUST-147,Consumer,South,Furniture,Tables,Standing Desk 60in,7,4528.28,0.0,633.53,13.74
+ORD-1412,2025-09-23,CUST-134,Consumer,North,Technology,Laptops,MacBook Air M3,7,849.35,0.0,269.33,32.65
+ORD-1413,2025-10-25,CUST-117,Consumer,East,Technology,Accessories,Mechanical Keyboard,3,112.48,0.05,8.18,28.2
+ORD-1414,2025-08-27,CUST-147,Corporate,West,Technology,Copiers,Epson EcoTank,6,2653.18,0.0,735.89,11.69
+ORD-1415,2025-09-20,CUST-146,Corporate,East,Technology,Laptops,Lenovo ThinkPad,1,189.1,0.0,31.17,5.8
+ORD-1416,2025-03-31,CUST-115,Consumer,South,Technology,Accessories,Monitor Arm,5,402.84,0.0,116.07,4.64
+ORD-1417,2025-05-04,CUST-136,Corporate,East,Office Supplies,Art,Drafting Pens,5,3236.32,0.1,241.52,7.78
+ORD-1418,2025-11-22,CUST-135,Consumer,West,Furniture,Chairs,Executive Leather Chair,4,1896.39,0.0,570.27,10.89
+ORD-1419,2025-08-09,CUST-135,Home Office,West,Office Supplies,Art,Marker Set 24-Pack,7,715.7,0.05,198.85,28.3
+ORD-1420,2025-05-28,CUST-108,Corporate,South,Furniture,Chairs,Drafting Stool,5,396.94,0.0,137.91,3.96
+ORD-1421,2025-05-17,CUST-141,Corporate,West,Office Supplies,Paper,Cardstock Paper,3,1405.74,0.15,100.52,17.97
+ORD-1422,2025-11-18,CUST-109,Consumer,West,Technology,Copiers,Brother Laser Printer,7,5239.71,0.05,1391.29,20.8
+ORD-1423,2025-01-04,CUST-106,Consumer,South,Office Supplies,Storage,Filing Cabinet 3-Drawer,1,526.89,0.1,114.9,22.28
+ORD-1424,2025-09-17,CUST-143,Consumer,East,Furniture,Bookcases,Walnut Bookshelf,3,808.8,0.05,170.76,22.3
+ORD-1425,2025-05-24,CUST-101,Corporate,South,Furniture,Furnishings,Desk Lamp,8,2153.59,0.05,484.36,11.03
+ORD-1426,2025-09-03,CUST-115,Consumer,North,Furniture,Bookcases,Walnut Bookshelf,9,7178.16,0.0,1784.03,16.16
+ORD-1427,2025-03-14,CUST-111,Consumer,South,Technology,Laptops,HP Spectre,4,1575.72,0.1,301.58,26.18
+ORD-1428,2025-06-08,CUST-113,Consumer,East,Technology,Copiers,Canon ImageCLASS,7,2854.03,0.0,349.53,22.23
+ORD-1429,2025-06-11,CUST-111,Consumer,South,Technology,Copiers,Brother Laser Printer,4,1961.21,0.0,606.76,22.66
+ORD-1430,2025-10-21,CUST-102,Consumer,North,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,4,1083.09,0.0,228.09,4.36
+ORD-1431,2025-12-03,CUST-144,Home Office,North,Office Supplies,Art,Marker Set 24-Pack,9,3389.63,0.0,608.66,31.62
+ORD-1432,2025-12-09,CUST-139,Consumer,South,Office Supplies,Binders,Heavy-Duty 3-Ring Binder,5,2870.14,0.0,469.61,3.41
+ORD-1433,2025-10-15,CUST-139,Home Office,West,Office Supplies,Appliances,Compact Refrigerator,6,3915.74,0.0,1043.81,34.64
+ORD-1434,2025-08-07,CUST-124,Consumer,North,Office Supplies,Binders,Zipper Binder,6,2181.73,0.05,605.4,34.86
+ORD-1435,2025-02-15,CUST-102,Home Office,South,Technology,Accessories,Wireless Mouse,1,398.89,0.15,54.19,25.23
+ORD-1436,2025-06-10,CUST-102,Corporate,North,Office Supplies,Art,Marker Set 24-Pack,4,2425.9,0.15,281.99,26.37
+ORD-1437,2025-06-22,CUST-142,Consumer,West,Technology,Laptops,HP Spectre,4,1605.05,0.1,148.18,10.23
+ORD-1438,2025-07-19,CUST-141,Corporate,East,Furniture,Bookcases,Walnut Bookshelf,9,742.82,0.0,93.87,21.74
+ORD-1439,2025-09-24,CUST-125,Consumer,East,Furniture,Tables,Executive Wooden Desk,3,1668.33,0.0,295.2,22.64
+ORD-1440,2025-03-06,CUST-134,Home Office,East,Furniture,Bookcases,Walnut Bookshelf,7,2666.67,0.0,734.49,20.81
+ORD-1441,2025-02-20,CUST-136,Consumer,West,Technology,Phones,iPhone 15 Pro,6,1517.21,0.2,160.25,32.78
+ORD-1442,2025-01-07,CUST-145,Consumer,West,Furniture,Chairs,Drafting Stool,7,1852.31,0.05,281.71,29.1
+ORD-1443,2025-01-29,CUST-118,Consumer,South,Furniture,Bookcases,Metal Storage Shelf,1,98.47,0.0,33.01,30.92
+ORD-1444,2025-04-20,CUST-124,Consumer,South,Office Supplies,Appliances,Coffee Maker,4,1306.42,0.0,266.17,26.38
+ORD-1445,2025-12-03,CUST-117,Consumer,South,Furniture,Chairs,Drafting Stool,2,660.29,0.0,86.96,15.54
+ORD-1446,2025-01-04,CUST-116,Corporate,South,Furniture,Furnishings,Desk Lamp,7,3375.79,0.15,447.66,14.06
+ORD-1447,2025-10-19,CUST-149,Corporate,East,Office Supplies,Storage,Plastic Storage Bin,3,401.65,0.0,99.98,5.58
+ORD-1448,2025-10-31,CUST-145,Corporate,East,Technology,Copiers,Brother Laser Printer,6,2335.91,0.05,623.23,28.07
+ORD-1449,2025-06-30,CUST-106,Corporate,East,Furniture,Tables,Executive Wooden Desk,6,3490.93,0.0,702.92,19.52
+ORD-1450,2025-04-05,CUST-136,Consumer,South,Technology,Laptops,MacBook Air M3,6,3000.46,0.0,955.55,3.41
+ORD-1451,2025-01-29,CUST-132,Corporate,North,Office Supplies,Paper,Sticky Notes Pack,5,532.1,0.0,78.39,17.7
+ORD-1452,2025-07-05,CUST-132,Home Office,East,Furniture,Bookcases,Walnut Bookshelf,2,445.22,0.05,38.37,9.98
+ORD-1453,2025-05-14,CUST-141,Corporate,North,Technology,Accessories,USB-C Hub,7,3429.97,0.0,879.49,21.29
+ORD-1454,2025-05-30,CUST-131,Home Office,North,Furniture,Chairs,Drafting Stool,7,2159.08,0.05,157.46,7.57
+ORD-1455,2025-09-23,CUST-127,Consumer,East,Furniture,Furnishings,Monitor Stand,6,2500.14,0.0,489.27,29.85
+ORD-1456,2025-12-06,CUST-146,Corporate,North,Office Supplies,Appliances,Air Purifier,3,2112.77,0.05,629.5,4.56
+ORD-1457,2025-01-15,CUST-106,Consumer,North,Furniture,Furnishings,Desk Lamp,5,1845.93,0.0,456.51,17.54
+ORD-1458,2025-11-02,CUST-111,Home Office,West,Furniture,Tables,Conference Table,9,1308.32,0.0,356.75,26.32
+ORD-1459,2025-01-25,CUST-117,Home Office,East,Furniture,Furnishings,Anti-Fatigue Mat,9,526.51,0.0,153.47,16.24
+ORD-1460,2025-08-08,CUST-132,Consumer,North,Furniture,Furnishings,Monitor Stand,8,3573.15,0.2,10.54,18.69
+ORD-1461,2025-07-16,CUST-124,Consumer,South,Office Supplies,Paper,Cardstock Paper,7,722.44,0.0,213.41,16.99
+ORD-1462,2025-04-21,CUST-110,Home Office,East,Technology,Laptops,Dell XPS 13,6,3529.45,0.0,909.47,26.67
+ORD-1463,2025-08-02,CUST-122,Consumer,East,Furniture,Furnishings,Monitor Stand,1,668.6,0.1,157.08,4.91
+ORD-1464,2025-04-09,CUST-133,Corporate,West,Furniture,Chairs,Executive Leather Chair,7,3229.19,0.0,833.78,27.61
+ORD-1465,2025-06-22,CUST-145,Consumer,East,Office Supplies,Appliances,Coffee Maker,8,921.14,0.0,173.72,12.69
+ORD-1466,2025-12-09,CUST-142,Corporate,West,Furniture,Chairs,Drafting Stool,2,933.68,0.0,203.48,20.71
+ORD-1467,2025-10-28,CUST-143,Consumer,East,Office Supplies,Binders,Presentation Folder,7,4392.27,0.05,579.89,25.24
+ORD-1468,2025-04-19,CUST-130,Consumer,West,Technology,Phones,iPhone 15 Pro,7,1848.59,0.15,42.42,25.21
+ORD-1469,2025-01-25,CUST-149,Consumer,East,Technology,Phones,Samsung Galaxy S24,6,202.79,0.05,59.54,8.58
+ORD-1470,2025-12-21,CUST-132,Consumer,South,Technology,Copiers,Canon ImageCLASS,8,3394.25,0.15,175.53,3.72
+ORD-1471,2025-05-06,CUST-142,Corporate,West,Furniture,Chairs,Drafting Stool,7,2466.06,0.1,605.26,21.31
+ORD-1472,2025-12-02,CUST-143,Corporate,South,Furniture,Chairs,Ergonomic Mesh Chair,6,2867.27,0.0,882.79,8.67
+ORD-1473,2025-10-14,CUST-141,Corporate,North,Furniture,Furnishings,Desk Lamp,9,4408.19,0.0,1392.41,12.88
+ORD-1474,2025-06-03,CUST-103,Consumer,East,Office Supplies,Storage,Filing Cabinet 3-Drawer,7,3745.81,0.1,896.49,29.11
+ORD-1475,2025-09-17,CUST-141,Corporate,North,Office Supplies,Storage,Desktop Organizer,9,1107.35,0.0,360.78,3.79
+ORD-1476,2025-06-13,CUST-112,Corporate,South,Technology,Copiers,Epson EcoTank,2,1098.35,0.15,155.78,28.72
+ORD-1477,2025-12-07,CUST-122,Consumer,South,Office Supplies,Appliances,Air Purifier,9,1208.08,0.0,137.26,8.84
+ORD-1478,2025-06-02,CUST-112,Consumer,West,Furniture,Bookcases,Metal Storage Shelf,3,780.21,0.0,203.87,26.85
+ORD-1479,2025-08-02,CUST-118,Corporate,South,Technology,Copiers,Epson EcoTank,9,2422.16,0.1,174.91,24.05
+ORD-1480,2025-04-10,CUST-106,Consumer,North,Technology,Copiers,Epson EcoTank,6,603.45,0.0,108.16,28.88
+ORD-1481,2025-02-11,CUST-116,Consumer,North,Office Supplies,Binders,Presentation Folder,2,459.71,0.15,14.12,30.31
+ORD-1482,2025-05-06,CUST-124,Consumer,South,Office Supplies,Paper,Sticky Notes Pack,3,765.74,0.0,110.48,3.16
+ORD-1483,2025-03-31,CUST-147,Consumer,West,Office Supplies,Binders,Zipper Binder,4,968.84,0.1,213.85,34.57
+ORD-1484,2025-06-06,CUST-107,Corporate,West,Office Supplies,Binders,Zipper Binder,6,1536.66,0.15,328.67,9.97
+ORD-1485,2025-06-21,CUST-122,Consumer,East,Furniture,Chairs,Ergonomic Mesh Chair,2,660.82,0.05,94.58,18.27
+ORD-1486,2025-02-17,CUST-131,Home Office,East,Furniture,Bookcases,Metal Storage Shelf,1,253.83,0.0,64.22,12.8
+ORD-1487,2025-12-01,CUST-114,Home Office,East,Furniture,Furnishings,Monitor Stand,8,4485.78,0.05,1233.94,7.23
+ORD-1488,2025-12-18,CUST-131,Home Office,West,Technology,Phones,iPhone 15 Pro,2,609.54,0.0,113.39,19.66
+ORD-1489,2025-07-11,CUST-124,Consumer,West,Office Supplies,Paper,Multipurpose Printer Paper,5,2677.85,0.05,451.48,16.51
+ORD-1490,2025-09-02,CUST-121,Consumer,West,Furniture,Tables,Standing Desk 60in,1,232.34,0.0,77.3,24.15
+ORD-1491,2025-12-16,CUST-105,Consumer,North,Technology,Phones,Motorola Edge,3,173.9,0.0,35.59,10.03
+ORD-1492,2025-09-22,CUST-142,Home Office,West,Furniture,Tables,Conference Table,7,4241.9,0.1,1005.94,26.13
+ORD-1493,2025-04-07,CUST-100,Consumer,West,Technology,Laptops,Lenovo ThinkPad,1,579.19,0.0,63.07,34.82
+ORD-1494,2025-10-17,CUST-122,Corporate,West,Technology,Phones,Motorola Edge,2,739.96,0.1,143.9,29.08
+ORD-1495,2025-03-20,CUST-117,Home Office,East,Furniture,Tables,Conference Table,4,3164.96,0.0,1097.37,27.15
+ORD-1496,2025-07-12,CUST-103,Home Office,West,Furniture,Bookcases,Oak 4-Shelf Bookcase,5,2173.54,0.15,172.25,33.53
+ORD-1497,2025-07-03,CUST-105,Consumer,West,Office Supplies,Storage,Plastic Storage Bin,1,122.56,0.05,13.96,16.7
+ORD-1498,2025-07-04,CUST-134,Consumer,North,Furniture,Bookcases,Metal Storage Shelf,3,822.52,0.0,278.3,4.93
+ORD-1499,2025-09-04,CUST-116,Consumer,East,Technology,Accessories,Mechanical Keyboard,8,889.29,0.05,88.41,5.26
+ORD-1500,2025-10-18,CUST-149,Consumer,West,Technology,Phones,Samsung Galaxy S24,5,749.62,0.0,213.24,7.45
