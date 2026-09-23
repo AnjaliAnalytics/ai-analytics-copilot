@@ -10,3 +10,11 @@ credentials.json
 .DS_Store
 Thumbs.db
 node_modules/
+
+# Ignore API tokens and keys
+*nc_pat_*
+*.token
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
