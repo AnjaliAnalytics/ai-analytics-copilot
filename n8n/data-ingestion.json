@@ -1,0 +1,241 @@
+{
+  "name": "Sales Data Ingestion Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "binaryPropertyName": "csv_file",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        336,
+        0
+      ],
+      "id": "097e58d9-afd8-4722-9613-b395c589ba69",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "jsCode": "const incomingItems = $input.all();\nconst validRecords = [];\nconst rejectedRecords = [];\n\n// Calculate summary stats across all items\nlet totalProcessed = incomingItems.length;\nlet totalValid = 0;\nlet totalRejected = 0;\n\nfor (let i = 0; i < incomingItems.length; i++) {\n  const rawRow = incomingItems[i].json;\n  \n  // Normalize row keys to lowercase to eliminate header case mismatches\n  const row = {};\n  for (const key in rawRow) {\n    row[key.toLowerCase().trim()] = rawRow[key];\n  }\n\n  let rejectionReasons = [];\n\n  // Extract fields flexibly regardless of CSV casing\n  const dateVal = row.date;\n  const regionVal = row.region;\n  const categoryVal = row.category;\n  const productVal = row.product;\n  const salesVal = row.sales;\n  const profitVal = row.profit;\n  const quantityVal = row.quantity;\n\n  // 1. Column Presence Check\n  if (salesVal === undefined) rejectionReasons.push(\"Missing Sales field\");\n  if (profitVal === undefined) rejectionReasons.push(\"Missing Profit field\");\n  if (quantityVal === undefined) rejectionReasons.push(\"Missing Quantity field\");\n\n  // 2. Data Type Validation\n  const salesNum = Number(salesVal);\n  const profitNum = Number(profitVal);\n  const qtyNum = Number(quantityVal);\n\n  if (isNaN(salesNum)) rejectionReasons.push(\"Invalid Sales value\");\n  if (isNaN(profitNum)) rejectionReasons.push(\"Invalid Profit value\");\n  if (isNaN(qtyNum)) rejectionReasons.push(\"Invalid Quantity value\");\n\n  // Format valid record (match exact NocoDB schema casing)\n  if (rejectionReasons.length === 0) {\n    totalValid++;\n    validRecords.push({\n      json: {\n        Date: dateVal ? String(dateVal).trim() : new Date().toISOString().split('T')[0],\n        Region: regionVal ? String(regionVal).trim() : \"Unknown\",\n        Category: categoryVal ? String(categoryVal).trim() : \"General\",\n        Product: productVal ? String(productVal).trim() : \"Item\",\n        Sales: salesNum,\n        Profit: profitNum,\n        Quantity: qtyNum\n      }\n    });\n  } else {\n    totalRejected++;\n    rejectedRecords.push({\n      row_number: i + 1,\n      reasons: rejectionReasons.join(\"; \")\n    });\n  }\n}\n\n// Attach metadata summary to items so reporter node receives it downstream\nreturn validRecords.map((rec, index) => ({\n  json: {\n    ...rec.json,\n    _summary: {\n      total_processed: totalProcessed,\n      total_valid: totalValid,\n      total_rejected: totalRejected,\n      rejected_details: rejectedRecords\n    }\n  }\n}));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        512,
+        0
+      ],
+      "id": "8f416d2d-1571-4045-99e9-d5a8faf51d5a",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst summaryData = items[0]?.json?._summary || {\n  total_processed: items.length,\n  total_valid: items.length,\n  total_rejected: 0,\n  rejected_details: []\n};\n\nconst outputReport = `\n# Data Ingestion Execution Summary Report\n\n## Overview\n- **Total Records Received:** ${summaryData.total_processed}\n- **Successfully Ingested into NocoDB:** ${summaryData.total_valid}\n- **Rejected Records:** ${summaryData.total_rejected}\n\n## Status\n${summaryData.total_rejected === 0 ? \"✅ **SUCCESS:** All incoming records passed validation and were successfully loaded into NocoDB.\" : \"⚠️ **COMPLETED WITH WARNINGS:** Some records were rejected due to schema or validation errors.\"}\n\n## Rejected Records Log\n${summaryData.rejected_details.length > 0 ? summaryData.rejected_details.map(r => `- **Row ${r.row_number}:**${r.reasons}`).join(\"\\n\") : \"*No records were rejected.*\"}\n`;\n\nreturn { json: { report: outputReport } };"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        848,
+        0
+      ],
+      "id": "921a5d57-1df7-447e-a011-24a0a13a54b3",
+      "name": "Generate Summary Report"
+    },
+    {
+      "parameters": {
+        "formTitle": "Sales Data Upload",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "csv_file",
+              "fieldType": "file"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        176,
+        0
+      ],
+      "id": "2b99fe8e-b565-4c57-ba8c-756720d590e4",
+      "name": "Sales Data Upload",
+      "webhookId": "b12591d8-e78f-4aac-a0ce-a08056a5a219"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8080/api/v2/tables/mv67xc788hq5d19/records",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "xc-token",
+              "value": "nc_pat_GA2l07fzKXyejkjIBPCwquzmAplqSYtS7sy0LDnl"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"Date\": \"={{ $json.Date }}\",\n  \"Region\": \"={{ $json.Region }}\",\n  \"Category\": \"={{ $json.Category }}\",\n  \"Product\": \"={{ $json.Product }}\",\n  \"Sales\": {{ $json.Sales }},\n  \"Profit\": {{ $json.Profit }},\n  \"Quantity\": {{ $json.Quantity }}\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        672,
+        0
+      ],
+      "id": "e6ff8efd-39e5-4f69-877d-ba939b43e880",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:8080/api/v2/tables/mwpcurp8lljml2k/records",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "xc-token",
+              "value": "nc_pat_GA2l07fzKXyejkjIBPCwquzmAplqSYtS7sy0LDnl"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        -352,
+        0
+      ],
+      "id": "253b1721-f235-4871-8ff0-8a49ab941c4d",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput || \"Give me an executive summary\" }}\n\n",
+        "options": {
+          "systemMessage": "CRITICAL RULES:\n1. Query physical columns directly.\n2. Margin = (SUM(Profit) / SUM(Sales)) * 100.\n3. Customer field does not exist.\n\nEXECUTIVE SUMMARY FORMAT:\nWhen user asks for \"executive summary\", output EXACTLY this format with no introductory conversational text:\n\nKPIs:\n- Revenue: $[Total Sales] | Profit: $[Total Profit] | Margin: [Margin]%\n- Orders: [Count] | Units: [Total Qty]\n- Top Category: [Name] | Top Region: [Name] | Top Product: [Name]\n\nInsights:\n1. [Insight 1]\n2. [Insight 2]\n3. [Insight 3]\n\nInvestigate:\n1. [Area 1]\n2. [Area 2]\n3. [Area 3]\n\nActions:\n1. [Action 1]\n2. [Action 2]\n3. [Action 3]\n\nVisual Overview:\nNorth: 40% | South: 30% | East: 20% | West: 10%\n\nRULE: Keep every single point under 5 words. Do NOT add extra explanations."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -192,
+        0
+      ],
+      "id": "528d71b2-1e59-4b99-b24f-2c76679c3ae1",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": "llama3.2:latest",
+        "options": {
+          "temperature": 0.2,
+          "numCtx": 4096,
+          "numPredict": 4096
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        -192,
+        192
+      ],
+      "id": "96e9c374-518c-46c6-bb14-ec8b13358a56",
+      "name": "Ollama Chat Model",
+      "credentials": {
+        "ollamaApi": {
+          "id": "bLoIAwEhBhSa0ykj",
+          "name": "Ollama account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sales Data Upload": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Generate Summary Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "8e0c324a-a5d3-455d-aebb-e4467a1313ab",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "916294a1a11193e8fc18c21b51ff2cf78b44167c22dcc5655c9842206d2c3e0a"
+  },
+  "nodeGroups": [],
+  "id": "9G3ASuBq8Ji5MO5U",
+  "tags": []
+}
