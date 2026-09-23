@@ -35,6 +35,37 @@ Business users frequently ask open-ended analytics questions (e.g., "What is our
 ▼
 [Executive Reporting / SQL Query Output]
 
+graph TD
+    %% Main Analytics Copilot Workflow
+    User -->|Chat Message| ChatTrigger[n8n Chat Trigger]
+    ChatTrigger --> InputProc[Input Processing / Prepare Variables]
+    InputProc --> AIAgent[AI Agent]
+
+    subgraph AI Agent Sub-nodes
+        AIAgent -.-> Ollama[Ollama / Llama3.2 LLM]
+        AIAgent -.-> Memory[Simple Memory]
+        AIAgent -.-> NocoTool[NocoDB REST API Tool]
+    end
+
+    AIAgent --> StructRes[Structured Result]
+    StructRes --> ChartGen[Build Chart.js Config]
+    ChartGen --> QuickChart[QuickChart.io HTTP Request]
+    QuickChart --> FinalOut[Format Final Output]
+
+    FinalOut --> Response[Final Analytics Response<br/>• Answer<br/>• Metrics<br/>• Visualization<br/>• Insights<br/>• Suggestions<br/>• Data Limitations]
+
+    %% Separate Data Ingestion Workflow
+    subgraph Data Ingestion Pipeline
+        CSV[CSV Source Data] --> Validation[Validation Node]
+        Validation --> Cleaning[Data Cleaning & Transformation]
+        Cleaning --> NocoDB[NocoDB Target Tables]
+    end
+
+    style User fill:#f9f,stroke:#333,stroke-width:2px
+    style AIAgent fill:#bbf,stroke:#333,stroke-width:2px
+    style Response fill:#bfb,stroke:#333,stroke-width:2px
+    style NocoDB fill:#ff9,stroke:#333,stroke-width:2px
+
 
 ## 4. Features
 - **Dynamic Guardrail Injection:** Consults Data Dictionary rules before generating SQL or summaries.
