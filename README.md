@@ -15,7 +15,10 @@ Markdown
 ### 2. AI Analytics Copilot Workflow
 ![AI Analytics Copilot Workflow](./screenshots/copilot-workflow.png)
 
----
+## 🗄️ Database Schema & Data Dictionary
+Here is the structure of our sales analytics data powering the NocoDB backend:
+
+![Data Dictionary Preview](screenshots/nocodb-data-dictionary.png)
 
 ## 1. Project Overview
 An enterprise-grade, self-hosted AI Analytics Copilot built with n8n, NocoDB, and a local Ollama LLM (`llama3.2`). It processes natural language business queries over structured sales transaction datasets while preventing metadata hallucinations through dynamic system-prompt injection (Data Dictionary guardrails).
