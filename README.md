@@ -1,6 +1,22 @@
 Markdown
 # AI Analytics Copilot (n8n + NocoDB + Ollama)
 
+## 🌐 Try the Live Copilot Demo
+- **Public Interactive Chat:** [Click here to test the AI Copilot](https://gown-precook-numerate.ngrok-free.dev/webhook/97c1c92f-11b0-4159-b18e-6930b53972f1/chat)
+- **Local Setup:** Run `docker compose up -d` to launch the full stack locally.
+
+---
+
+## 🛠️ Backend Workflow Architecture
+
+### 1. Sales Data Ingestion Pipeline
+![Sales Data Ingestion Pipeline](./screenshots/01_workflow_canvas.png)
+
+### 2. AI Analytics Copilot Workflow
+![AI Analytics Copilot Workflow](./screenshots/copilot-workflow.png)
+
+---
+
 ## 1. Project Overview
 An enterprise-grade, self-hosted AI Analytics Copilot built with n8n, NocoDB, and a local Ollama LLM (`llama3.2`). It processes natural language business queries over structured sales transaction datasets while preventing metadata hallucinations through dynamic system-prompt injection (Data Dictionary guardrails).
 
